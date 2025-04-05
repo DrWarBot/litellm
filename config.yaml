@@ -2,15 +2,19 @@ general_settings:
   master_key: sk_drwarbot_supersecretkey123
 
 model_list:
+  - model_name: gpt-3.5-turbo
+    litellm_provider: openai
+    api_key: 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
+
   - model_name: gpt-4
     litellm_provider: openai
-    api_key: sk-YOUR_OPENAI_KEY
+    api_key: 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
 
   - model_name: claude-instant-1
     litellm_provider: anthropic
-    api_key: YOUR_CLAUDE_API_KEY
+    api_key: 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
 
   - model_name: gemini-pro
     litellm_provider: google
-    api_key: YOUR_GOOGLE_API_KEY
+    api_key: AIzaSyC7LmkqbB3wdzYW8MwX20TBFbszi3VR8Mw
 
