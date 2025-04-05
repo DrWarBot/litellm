@@ -1,1 +1,16 @@
+general_settings:
+  master_key: sk_drwarbot_supersecretkey123
+
+model_list:
+  - model_name: gpt-4
+    litellm_provider: openai
+    api_key: sk-YOUR_OPENAI_KEY
+
+  - model_name: claude-instant-1
+    litellm_provider: anthropic
+    api_key: YOUR_CLAUDE_API_KEY
+
+  - model_name: gemini-pro
+    litellm_provider: google
+    api_key: YOUR_GOOGLE_API_KEY
 
