@@ -1,24 +1,32 @@
 {
+  "litellm_settings": {
+    "drop_params": true,
+    "debug": true,
+    "cache": false
+  },
   "model_list": [
     {
       "model_name": "gpt-4",
       "litellm_params": {
         "model": "gpt-4",
-        "api_key": "env:OPENAI_API_KEY"
+        "api_key": "sk-proj-xxxxx",
+        "provider": "openai"
       }
     },
     {
-      "model_name": "claude-3-opus",
+      "model_name": "claude-3-haiku",
       "litellm_params": {
-        "model": "claude-3-opus-20240229",
-        "api_key": "env:ANTHROPIC_API_KEY"
+        "model": "claude-3-haiku-20240307",
+        "api_key": "sk-ant-api03-xxxxx",
+        "provider": "anthropic"
       }
     },
     {
       "model_name": "gemini-pro",
       "litellm_params": {
         "model": "gemini-pro",
-        "api_key": "env:GOOGLE_API_KEY"
+        "api_key": "AIzaSyxxxxx",
+        "provider": "google"
       }
     }
   ]
