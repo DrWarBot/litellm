@@ -6,7 +6,12 @@
       "env_key": "OPENAI_API_KEY"
     },
     {
-      "model_name": "gpt-4",
+      "model_name": "gpt-4o",
+      "litellm_provider": "openai",
+      "env_key": "OPENAI_API_KEY"
+    },
+    {
+      "model_name": "gpt-4-turbo",
       "litellm_provider": "openai",
       "env_key": "OPENAI_API_KEY"
     },
@@ -16,7 +21,27 @@
       "env_key": "ANTHROPIC_API_KEY"
     },
     {
+      "model_name": "claude-3-sonnet-20240229",
+      "litellm_provider": "anthropic",
+      "env_key": "ANTHROPIC_API_KEY"
+    },
+    {
       "model_name": "claude-3-opus-20240229",
+      "litellm_provider": "anthropic",
+      "env_key": "ANTHROPIC_API_KEY"
+    },
+    {
+      "model_name": "claude-3-opus-latest",
+      "litellm_provider": "anthropic",
+      "env_key": "ANTHROPIC_API_KEY"
+    },
+    {
+      "model_name": "claude-3-5-haiku-latest",
+      "litellm_provider": "anthropic",
+      "env_key": "ANTHROPIC_API_KEY"
+    },
+    {
+      "model_name": "claude-3-5-sonnet-latest",
       "litellm_provider": "anthropic",
       "env_key": "ANTHROPIC_API_KEY"
     },
